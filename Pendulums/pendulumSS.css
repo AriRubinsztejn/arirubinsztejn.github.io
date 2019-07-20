@@ -1,0 +1,52 @@
+* {
+box-sizing: border-box;
+}
+.logo {
+  width: 33%;
+  height: 10%;
+  padding-top: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  float: left;
+  background-color: white;
+}
+.menu {
+  width: 33%;
+  height: 90%;
+  padding-top: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  float: left;
+  background-color: white;
+}
+
+.main {
+  border-radius: 25px;
+  width: 67%;
+  height: 100%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+  background-color: black;
+}
+/*@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+  }*/
+@@font-face {
+  font-family: "Oswald";
+  src: url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+}
+
+body {background-color: white;}
+h4   {color: black;text-align: center;font-family: 'Oswald', sans-serif;}
+h3   {color: black;text-align: center;font-family: 'Oswald', sans-serif;}
+h2   {color: white;text-align: center;font-family: 'Oswald', sans-serif;}
+p    {color: white;text-align: center;font-family: 'Oswald', sans-serif;}
+
+
+IMG.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
